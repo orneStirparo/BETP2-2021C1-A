@@ -69,10 +69,3 @@ console.log(`Nombre de actor: ${actor["name"]}`);
 
 // acceso a las propiedades usando la notación punto .
 console.log(`Edad de actor: ${actor.age}`);
-
-
-
-
-
-
-
