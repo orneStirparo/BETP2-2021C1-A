@@ -60,4 +60,5 @@ function getTotalSegundos2(videos, tipo){
 
 console.log(getTotalSegundos2(getObjects(str), 'Flexbox Video'));
 
+// VOLVEMOS 9:35!!
 
