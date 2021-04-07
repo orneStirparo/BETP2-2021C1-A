@@ -50,10 +50,11 @@ function getTotalSegundos(videos, tipo){
 }
 
 function getTotalSegundos2(videos, tipo){
-
+  
   return videos
     .filter(video => video.tipo === tipo)
     .reduce((totalSegundos, video) => totalSegundos + (video.min*60 + video.seg), 0);
+
 }
 
 //[1,3,4,5,6].reduce((total, num) => total+ num);
